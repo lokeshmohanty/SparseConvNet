@@ -1,0 +1,16 @@
+[project]
+name = "sparseconvnet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools", "torch", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "torch>=2.7.0",
+    "torchvision>=0.22.0",
+]
